@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Unbounded';       /* Имя шрифта, которым вы будете пользоваться */
+  src: url('../assets/fonts/Unbounded-Regular.ttf') format('truetype'); /* Путь к файлу */
+  font-weight: normal;          /* обычный вес */
+  font-style: normal;           /* обычный стиль */
+}
+
+@font-face {
+  font-family: 'Unbounded';       /* Имя шрифта, которым вы будете пользоваться */
+  src: url('../assets/fonts/Unbounded-SemiBold.ttf') format('truetype'); /* Путь к файлу */
+  font-weight: 600;          /* обычный вес */
+  font-style: normal;           /* обычный стиль */
+}
+
+@font-face {
+  font-family: 'Unbounded';       /* Имя шрифта, которым вы будете пользоваться */
+  src: url('../assets/fonts/Unbounded-Bold.ttf') format('truetype'); /* Путь к файлу */
+  font-weight: 700;          /* обычный вес */
+  font-style: normal;           /* обычный стиль */
+}
