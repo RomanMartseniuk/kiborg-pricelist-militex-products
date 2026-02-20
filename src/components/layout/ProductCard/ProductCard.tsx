@@ -60,7 +60,7 @@ export const ProductCard = ({ product }: { product: Product }) => {
       className="max-w-[95%] font-[Unbounded] overflow-hidden border-0 p-0"
       showCloseButton={false}
     >
-      <DialogHeader className="flex flex-row items-center justify-between gap-3 bg-[#434343] px-3 py-4 text-white">
+      <DialogHeader className="flex flex-row items-center justify-between gap-3 bg-[#202020] px-3 py-4 text-white">
         <DialogTitle className="text-left  text-[15px] ">
           {product.name}
         </DialogTitle>
@@ -102,24 +102,26 @@ export const ProductCard = ({ product }: { product: Product }) => {
                 ))}
               </CarouselContent>
 
-              <CarouselPrevious className="absolute left-0 bg-[#8f9250] hover:bg-[#6e6e49] border-0" />
-              <CarouselNext className="absolute right-0 bg-[#8f9250] hover:bg-[#6e6e49] border-0" />
+              <CarouselPrevious className="absolute left-0 transition-colors duration-500 bg-[#202020] hover:bg-[#fecb15] text-[#fecb15] hover:text-[#202020] border-0" />
+              <CarouselNext className="absolute right-0 transition-colors duration-500 bg-[#202020] hover:bg-[#fecb15] text-[#fecb15] hover:text-[#202020] border-0" />
             </Carousel>
           </div>
         </div>
 
         <div className="flex gap-2 flex-wrap items-center mb-5">
-          <Badge className="bg-[#8F9250]">РРЦ: {product.price} грн</Badge>
+          <Badge className="bg-[#202020]">РРЦ: {product.price} грн</Badge>
           {product.optPrice && (
-            <Badge className="bg-[#6E6E49]">ОПТ: {product.optPrice} грн</Badge>
+            <Badge className="bg-[#757575]">ОПТ: {product.optPrice} грн</Badge>
           )}
-          <Badge className="bg-[#CC8110]">ДРОП: {product.dropPrice} грн</Badge>
+          <Badge className="bg-[#fecb15] text-[#202020]">
+            ДРОП: {product.dropPrice} грн
+          </Badge>
         </div>
         <div className="flex items-center justify-between mb-4">
           <div className="text-[12px]">Артикул - {product.vendorCode}</div>
           <a
             href={product.url}
-            className="block text-[12px] px-3 py-2.5 rounded text-white font-semibold bg-[#8f9250] text-center transition-colors hover:bg-[#6E6E49]"
+            className="block text-[12px] px-3 py-2.5 rounded font-semibold text-center transition-colors bg-[#202020] duration-500 hover:bg-[#fecb15] text-[#fecb15] hover:text-[#202020]"
           >
             Переглянути товар
           </a>
