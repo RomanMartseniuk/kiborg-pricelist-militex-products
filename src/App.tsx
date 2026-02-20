@@ -26,8 +26,8 @@ const App = () => {
             <ProductsAccordion categories={categories} />
             <Footer
               classNames={cn({
-                "bg-[#EBE9DE]": Math.floor(categories.length % 2) === 0,
-                "bg-[#DEDFBF]": Math.floor(categories.length % 2) !== 0,
+                "bg-[#ede8d6]": Math.floor(categories.length % 2) === 0,
+                "bg-[#f5f3ec]": Math.floor(categories.length % 2) !== 0,
               })}
             />
           </div>

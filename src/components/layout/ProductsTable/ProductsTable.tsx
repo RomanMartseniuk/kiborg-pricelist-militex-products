@@ -32,15 +32,15 @@ const ProductsTable: React.FC<Props> = ({ products }) => {
               </div>
             </TableHead>
 
-            <TableHead className="bg-[#8F9250] text-center uppercase font-[Unbounded] sm:font-semibold text-[8px] text-white w-10 p-0 sm:text-[18px] sm:w-22.5">
+            <TableHead className="bg-[#202020] text-center uppercase font-[Unbounded] sm:font-semibold text-[8px] text-white w-10 p-0 sm:text-[18px] sm:w-22.5">
               РЦЦ
             </TableHead>
 
-            <TableHead className="bg-[#6E6E49] text-center uppercase font-[Unbounded] sm:font-semibold text-[8px] text-white w-10 p-0 sm:text-[18px] sm:w-22.5">
+            <TableHead className="bg-[#757575] text-center uppercase font-[Unbounded] sm:font-semibold text-[8px] text-white w-10 p-0 sm:text-[18px] sm:w-22.5">
               ОПТ
             </TableHead>
 
-            <TableHead className="bg-[#CC8110] text-center uppercase font-[Unbounded] sm:font-semibold text-[8px] text-white w-12 p-0 sm:text-[18px] sm:w-22.5">
+            <TableHead className="bg-[#fecb15] text-center uppercase font-[Unbounded] sm:font-semibold text-[8px] text-[#202020] w-12 p-0 sm:text-[18px] sm:w-22.5">
               ДРОП
             </TableHead>
           </TableRow>
